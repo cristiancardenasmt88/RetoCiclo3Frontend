@@ -1,0 +1,64 @@
+:root{
+    --dark: #0a0a0a;
+    --grey: #f6f6f6;
+    --light: #ffffff;
+    --blue: #0f0949;
+}
+
+body{
+    background-color:rgba(60, 99, 130,0.7);
+    font-family: 'Spartan', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.py-6 {
+    padding-top: 10rem;
+    padding-bottom: 8rem;
+}
+
+.navbar {
+    min-height: 5rem;
+    background-color: rgb(10, 61, 98,1.0);
+}
+
+.bg-light { background-color: var(--light) !important; }
+.bg-light { background-color: var(--grey) !important; }
+.bg-light { background-color: var(--dark) !important; }
+
+.text-dark { color: var(--dark) !important;}
+
+.btn{
+    padding: .75rem 1rem;
+    border-radius: .1rem;
+    font-weight: 600; 
+}
+
+.btn-dark { background-color: var(--dark) ; }
+
+.btn-outline-dark:hover { background-color: var(--dark) ; }
+
+footer {
+    background-color:rgb(10, 61, 98,1.0);
+}
+
+table{
+    text-align: center;
+}
+th,
+td {
+    
+    background-color: rgb(138, 163, 247);
+    border: 1px solid rgb(7, 7, 7);
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+.card-body{
+    background-color: rgb(73, 95, 223);
+    border: 1px solid rgb(7, 7, 7);
+    border-collapse: collapse;
+}
+
+
+
